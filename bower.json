@@ -1,0 +1,30 @@
+{
+  "name": "scorm-local",
+  "main": ["scorm-local.min.js", "scorm-local.js"],
+  "version": "0.1.0",
+  "authors": [
+    "Rafael Belvederese <rafael@blvz.im>"
+  ],
+  "description": "SCORM API to test SCOs with localStorage.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "scorm",
+    "localstorage",
+    "e-learning"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/blvz/scorm-local",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "karma.conf.js",
+    "LICENSE",
+    "Makefile",
+    "package.json",
+    "test"
+  ]
+}
