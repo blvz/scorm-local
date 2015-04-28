@@ -1,0 +1,36 @@
+{
+  "name": "scorm-local",
+  "version": "0.1.0",
+  "description": "SCORM API to test SCOs with localStorage.",
+  "homepage": "https://github.com/blvz/scorm-local",
+  "keywords": [
+    "scorm",
+    "localstorage",
+    "e-learning"
+  ],
+  "repository": {
+    "url": "git://github.com/blvz/scorm-local.git",
+    "type": "git"
+  },
+  "author": "Rafael Belvederese <rafael@blvz.im>",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "make scorm-local.min.js",
+    "test": "mocha -u tdd --reporter dot"
+  },
+  "main": "scorm-local.js",
+  "files": [
+    "scorm-local.js"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "karma": "*",
+    "karma-chai": "*",
+    "karma-mocha": "*",
+    "karma-requirejs": "*",
+    "mocha": "*",
+    "node-localstorage": "*",
+    "requirejs": "*",
+    "uglify-js": "^2.4.20"
+  }
+}
