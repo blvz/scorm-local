@@ -16,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "prepublish": "make scorm-local.min.js",
-    "test": "mocha -u tdd --reporter dot"
+    "test": "mocha -u tdd --reporter dot test/*spec.js"
   },
   "main": "scorm-local.js",
   "files": [
