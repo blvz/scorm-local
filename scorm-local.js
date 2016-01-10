@@ -115,7 +115,7 @@
           r = JSON.parse(localStorage.getItem(k));
         } finally {}
 
-        if ({}.toString.call(r) != '[object Object]' || r._flush ||
+        if (!r || {}.toString.call(r) != '[object Object]' || r._flush ||
             r._expireTime === 0) return {};
 
         if (r._expireTime !== -1 &&
