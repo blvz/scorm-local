@@ -1,6 +1,6 @@
 {
   "name": "scorm-local",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "SCORM API to test SCOs with localStorage.",
   "homepage": "https://github.com/blvz/scorm-local",
   "keywords": [
